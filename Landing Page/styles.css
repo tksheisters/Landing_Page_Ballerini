@@ -1,0 +1,143 @@
+/* Fonts Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;   
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #643434 20%, #cc7474 80%);
+    color: whitesmoke;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header_img {
+    width: auto;
+    height: auto; 
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.header_menu {
+    display: flex;
+    gap: 30px;
+}
+
+.header_menu_item {
+    font-family: 'Righteous';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.header_menu_item:hover {
+    color: black;
+}
+
+.content {
+    margin-bottom: 48px;
+    border-top: 1px solid whitesmoke;
+}
+
+.principal_content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal_content_write {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.principal_content_write_title {
+    display: flex;
+    align-items: center;
+    font-weight: 1000;
+    font-size: 48px;
+    font-family: 'Righteous';
+}
+
+.principal_content_write_subtitle {
+    font-family: 'Sarala';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.principal_content_write_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #643434;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 1000;
+    font-size: 16px;
+    color: whitesmoke;
+    width: 120px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.50);
+}
+
+.principal_content_write_button:hover {
+    background-color: #874040;
+}
+
+.principal_content_img{
+    height: 350px;
+}
+
+.secondary_content {
+    margin-top: 48px;
+    margin-left: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+    gap: 14px;
+}
+
+.secondary_content_title {
+    border-top: 1px solid whitesmoke;
+    font-family: 'Righteous';
+    font-weight: 300;
+    font-size: 24px;
+    padding-top: 24px;
+    margin-bottom: 24px;
+}
+
+.secondary_content_subtitle {
+    font-family: 'Sarala';
+    font-size: 16px;
+    font-weight: 0;
+}
+
+.footer {
+    border-top: 1px solid whitesmoke;
+    padding-top: 24px;
+}
+
+.footer_img {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
