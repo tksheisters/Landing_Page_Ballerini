@@ -11,7 +11,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #643434 20%, #cc7474 80%);
+    background: linear-gradient(30deg, #643434 20%, #cc7474 80%);
     color: whitesmoke;
 
 }
@@ -20,8 +20,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: flex-start;
+    gap: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
 }
 
 .header_img {
@@ -33,7 +36,8 @@ body {
 
 .header_menu {
     display: flex;
-    gap: 30px;
+    gap: 20px;
+
 }
 
 .header_menu_item {
@@ -47,7 +51,7 @@ body {
 }
 
 .content {
-    margin-bottom: 48px;
+    margin-bottom: 10px;
     border-top: 1px solid whitesmoke;
 }
 
@@ -133,11 +137,14 @@ body {
 .footer {
     border-top: 1px solid whitesmoke;
     padding-top: 24px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .footer_img {
-    height: 50px;
     display: block;
     margin: 0 auto;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
