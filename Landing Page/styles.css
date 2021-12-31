@@ -138,13 +138,19 @@ body {
     border-top: 1px solid whitesmoke;
     padding-top: 24px;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: flex-end;
+    flex-direction: column;
 }
 
-.footer_img {
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 10px;
+.principal_logo {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondary_logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
